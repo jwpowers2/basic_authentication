@@ -13,7 +13,7 @@ server.listen(5000);
 
 io = socketIO(server);
 
-var getUser = require('./lib/geUser'),
+var getUser = require('./lib/getUser'),
     loginUser = require('./lib/loginUser'),
     createUser = require('./lib/createUser'),
     authenticateUser = require('./lib/authenticateUser');
